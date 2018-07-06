@@ -1,0 +1,25 @@
+@import "../../variables.less";
+
+.site-header {
+  width: 100%;
+  height: auto;
+  &__menu-line {
+    height: 65px;
+    width: 100%;
+    border-top: 1px @light-blue solid;
+    background: @dark-blue;
+    @media only screen and (max-width: @mobile-point) {
+      height: 50px;
+      position:fixed;
+    }
+    &__menu{
+      margin: 0 auto;
+      max-width: @site-max-width;
+      padding: 10px 30px;
+      @media only screen and (max-width: @mobile-point) {
+        padding:15px;
+      }
+    }
+  }
+
+}

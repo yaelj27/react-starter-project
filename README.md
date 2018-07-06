@@ -1,2 +1,3 @@
-# react-starter-project
-React and Redux project starter
+Basic React Poject + Router + Redux ( Using React Bootstrap )
+
+https://react-bootstrap.github.io/getting-started/introduction
